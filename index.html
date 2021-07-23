@@ -2,22 +2,25 @@
 <meta charset="UTF-8">
 <html>
 	<head>
-		<title>SrK</title>
+		<title>SRK</title>
 		<link rel="stylesheet" href="styles/Styles.css" />
+		<script src="scripts/JScript.js"></script>
 	</head>
 	<body>
 		<header></header>
 		<nav>
 			<ul>
-				<li><a href="">Personal Info</a></li>
-				<li><a href="">Work Experience</a></li>
+				<li><a href="#PI">Personal Info</a></li>
+				<li><a href="#ED">Education</a></li>
+				<li><a href="#WE">Work Experience</a></li>
+				<li><a href="#SKILLS">My Skils</a></li>
 				<li><a href="">Projects</a></li>
-				<li><a href="">Socials</a></li>
+				<li><a href="#Contacts">Socials</a></li>
 			</ul>
 		</nav>
-		<section class="Personal-info-Container">
-			<h1>Personal Information</h1>
-			<table>
+		<section class="Container">
+			<h3 id="PI">Personal Information</h3>
+			<table id="Personal-Info">
 				<tr>
 					<td>Name:</td> 
 					<td><strong>Siphosethu</strong></td>
@@ -68,12 +71,87 @@
 				</tr>
 			</table>
 		</section>
-		<section class="Work-Experience">
-			
+		<section class="Container">
+			<h3 id="ED">Education</h3>
+			<table>
+				<tr>
+					<td colspan="2">
+						<h4>High School</h4>
+					</td>
+				</tr>
+				<tr>
+					<td>Institution:</td>
+					<td>Buchule Technical High School</td>
+				</tr>
+				<tr>
+					<td>Highest grade Passed:</td>
+					<td>Matric (Grade 12)</td>
+				</tr>
+				<tr>
+					<td>Year Obtained:</td>
+					<td>2015</td>
+				</tr>
+				<tr>
+					<td colspan="2">
+						<h4>Tertiary</h4>
+					</td>
+				</tr>
+				<tr>
+					<td>Institution:</td>
+					<td><a href="https://www.mandela.ac.za" target="_blank">Nelson Mandela University</a></td>
+				</tr>
+				<tr>
+					<td>Degree:</td>
+					<td>BCom(Computer Science & Infomartion Systems) </td>
+				</tr>
+				<tr>
+					<td>Year Obtained:</td>
+					<td>2020</td>
+				</tr>
+			</table>
 		</section>
-		<section class="Projects">
-			
+		<section class="Container">
+			<h3 id="WE"> Work Eperience</h3>
+		</section>
+		<section class="Container">
+		<h3 id="SKILLS">My Skils</h3>
+			<ul>
+				<li>Computer Literate </li>
+				<li>Microsoft 365 Office 
+					<ul>
+						<li>Excell</li>
+						<li>Word</li>
+						<li>PowerPoint</li>
+						<li>Access</li>
+					</ul>
+				</li>
+				<li>Adobe Photoshop</li>
+				<li> Coding / Programming:
+					<ul>
+						<li>C#</li>
+						<li>Java</li>
+						<li>HTML</li>
+						<li>CSS</li>
+						<li>JavaScript</li>
+						<li>Android</li>
+						<li>SQL</li>
+						<li>ASP.NET</li>
+					</ul>
+				</li>
+			</ul>
 		</section>
 	</body>
-	<footer></footer>
+	<footer>
+		<article id="Contacts">
+			<a href="" target="_blank"><img src="images/facebook.png" alt="Facebook" /></a>
+			<a href="https://twitter.com/Rinna_kanandawo" target="_blank"><img src="images/twitter.png" alt="Twiter" /></a>
+			<a href="https://www.sololearn.com/profile/21738598" target="_blank"><img src="images/sololearn.png" alt="SoloLearn" /></a>
+			<a href="https://www.linkedin.com/in/siphosethu-kanandawo-4b2057191" target="_blank"><img src="images/LinkedIn.png" alt="LinkedIn" /></a>
+			<a href="https://www.instagram.com/rinna_siphosethu/" target="_blank"><img src="images/insta.png" alt="Instagram" /></a>
+		</article>
+		<article id="Copy-Right">
+			All Rights Reserved 2021 &copy
+		</article>
+		
+	</footer>
 </html>

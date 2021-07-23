@@ -5,8 +5,12 @@ body{
 header{
 	
 }
+/*====================Nav Start====================*/
 nav{
-	
+	background-color: #ff2568; /*lol randomly generated*/
+	height: 3em;
+	margin-bottom: 0.5em;
+	padding: 0.6em;
 }
 nav ul{
 	list-style:none;
@@ -19,14 +23,51 @@ nav li{
 }
 nav li a{
 	text-decoration: none;
-	font-size: larger;
+	font-size: large;
 	margin-right: 0.5em;
+	color: white;
+	margin:0.5em;
 }
-.Personal-info-Container{
+/*====================Nav End====================*/
+/*================Container Start===============*/
+.Container{
 	width: 90%;
 	margin: auto;
+	margin-bottom: 1.2em;
+	padding: 1em;
 	border: 1px solid lightgrey;
+	border-radius: 0.5em;
 }
-.Personal-info-Container table{
+/*================Container End===============*/
+/*================Personal-info-Table Start===============*/
+.Container #Personal-Info{
 	margin: auto;
+}
+.Container #Personal-Info tr td{
+	padding: 0.3em;
+}
+/*================Personal-info-Container End===============*/
+footer{
+	display: flex;
+}
+
+
+/*================Contact-Container Start===============*/
+#Contacts{
+	flex-basis: 35%;
+	border-right: 1px solid black;
+}
+#Contacts img{
+	height: 35px;
+	margin: 0.6em;
+}
+#Contacts img:hover{
+	height: 45px;
+	border: 1px solid grey;
+	border-radius: 0.4em;
+}
+/*================Contact-Container End===============*/
+
+#Copy-Right{
+	padding: 1em;
 }
